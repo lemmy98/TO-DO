@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.center {
+    margin: auto;
+    width: 40%;
+    padding: 30px;
+    text-align: center;
+}
+
+#heading{
+    margin: 30px;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+#first{
+    margin: 30px;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+
+}
+
+#inputText{
+    margin: 25px;
+}
+
+input {
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+button {
+	padding: 10px 20px 10px 20px;
+	margin: 5px;
+	border: none;
+	background-color: lightblue;
+	border-radius: 5px;
+}
+
+button:hover {
+	cursor: pointer;
+    background-color: lightskyblue;
+}
+
+#heading2{
+    margin: 30px;
+}
+
+ul li {
+	opacity: 1;
+	cursor: pointer;
+
+}
+
+.listItems{
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 5px;
+}
+#clear{
+    margin: 30px;
+}
